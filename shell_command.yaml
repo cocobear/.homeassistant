@@ -1,0 +1,2 @@
+reading_room_light_on: echo -e '\xFD\x03\x55\x55\x12\x60\xDF' > /dev/ttyUSB0
+reading_room_light_off: echo -e '\xFD\x03\x55\x55\x11\x60\xDF' > /dev/ttyUSB0

@@ -1,0 +1,34 @@
+#
+# SWITCHES!!!!
+#
+- platform: command_line
+  switches:
+    study_light:
+      command_on: "/root/.homeassistant/light.sh 11"
+      command_off: "/root/.homeassistant/light.sh 12"
+      friendly_name: "书房灯"
+
+    living_light:
+      command_on: "/root/.homeassistant/light.sh 13"
+      command_off: "/root/.homeassistant/light.sh 14"
+      friendly_name: "客厅灯"
+
+    wash_light:
+      command_on: "/root/.homeassistant/light.sh 15"
+      command_off: "/root/.homeassistant/light.sh 16"
+      friendly_name: "卫生间灯"
+
+    walk_light:
+      command_on: "/root/.homeassistant/light.sh 17"
+      command_off: "/root/.homeassistant/light.sh 18"
+      friendly_name: "走廊灯"
+
+    bed_one_light:
+      command_on: "/root/.homeassistant/light.sh 85"
+      command_off: "/root/.homeassistant/light.sh 86"
+      friendly_name: "主卧灯"
+
+    bed_two_light:
+      command_on: "/root/.homeassistant/light.sh 87"
+      command_off: "/root/.homeassistant/light.sh 88"
+      friendly_name: "次卧灯"

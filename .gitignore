@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+
+# Python cache
+__pycache__
+*.pyc
+
+# Other
+deps
+tts
+*.db
+*.db-journal
+*.log
+home-assistant.*
+!home-assistant.service
+ip_bans.yaml
+known_devices.yaml
+secrets.env
+secrets.yaml
